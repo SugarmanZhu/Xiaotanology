@@ -1,14 +1,12 @@
 <template>
-    <div class="relative overflow-clip aspect-video w-full 2xl:aspect-[16/5] grid content-center">
+    <div class="relative overflow-hidden aspect-video w-full 2xl:aspect-[16/5] grid content-center">
         <NuxtImg src="/cover.webp" class="blur-sm w-full scale-105" alt="Background Cover Image" />
-
         <div class="absolute inset-0 flex justify-center items-center">
-            <div class="relative w-5/6 m-auto drop-shadow-sm grid content-center aspect-video 2xl:aspect-[16/5] overflow-clip">
+            <div class="relative w-5/6 m-auto drop-shadow-sm grid content-center aspect-video 2xl:aspect-[16/5] overflow-hidden">
                 <NuxtImg src="/cover.webp" class="relative w-full" alt="Foreground Image" />
-                
                 <div class="absolute bottom-0 inset-x-0 text-left p-4 sm:p-6 md:p-8 backdrop-blur-md backdrop-opacity-90 backdrop-brightness-50 text-gray-50">
-                <h1 class="text-lg sm:text-2xl md:text-4xl font-bold">Welcome to Xiaotanology.</h1>
-                <p class="text-sm mt-2 md:mt-3 hidden sm:inline-block">We are committed to providing high-quality products and services to meet your needs.</p>
+                    <h1 class="text-lg sm:text-2xl md:text-4xl font-bold">Welcome to Xiaotanology.</h1>
+                    <p class="text-sm mt-2 md:mt-3 hidden sm:inline-block">We are committed to providing high-quality products and services to meet your needs.</p>
                 </div>
             </div>
         </div>
